@@ -23,6 +23,13 @@ A full-stack web application to help users plan casual hangouts, leveraging both
 - Modern TypeScript codebase (frontend and backend).
 - MongoDB for scalable, flexible data storage.
 - Easy seeding of demo users for quick testing.
+<p align="center">
+  <img src="image1.png" alt="Feature 1" width="200" style="margin-right: 250px;"/>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="image3.png" alt="Feature 2" width="200" style="margin-right: 20;"/>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="image2.png" alt="Feature 2" width="200"/>
+</p>
 
 ---
 ## Getting Started
