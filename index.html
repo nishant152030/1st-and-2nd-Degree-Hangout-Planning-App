@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-T">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hangout Planner</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    /* For custom scrollbars if needed, or other minor global tweaks */
+    body {
+      font-family: 'Inter', sans-serif; /* A nice default sans-serif font */
+    }
+    /* Simple line drawing class - not perfect for complex graphs but a start */
+    .connector-line {
+      position: absolute;
+      background-color: #38bdf8; /* sky-500 */
+      z-index: -1;
+    }
+  </style>
+<script type="importmap">
+{
+  "imports": {
+    "react-dom/": "https://esm.sh/react-dom@^19.1.0/",
+    "react/": "https://esm.sh/react@^19.1.0/",
+    "react": "https://esm.sh/react@^19.1.0",
+    "express": "https://esm.sh/express@^5.1.0",
+    "cors": "https://esm.sh/cors@^2.8.5",
+    "dotenv": "https://esm.sh/dotenv@^17.0.0",
+    "mongoose": "https://esm.sh/mongoose@^8.16.1",
+    "jsonwebtoken": "https://esm.sh/jsonwebtoken@^9.0.2",
+    "body-parser": "https://esm.sh/body-parser@^2.2.0",
+    "bcryptjs": "https://esm.sh/bcryptjs@^3.0.2",
+    "process": "https://esm.sh/process@^0.11.10"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+<body class="bg-slate-900 text-slate-100">
+  <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>
