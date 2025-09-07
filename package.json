@@ -7,7 +7,7 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "postinstall": "ts-node backend/src/scripts/seed.ts"
+    "postinstall": "npm run seed"
   },
   "dependencies": {
     "bcryptjs": "^3.0.2",
