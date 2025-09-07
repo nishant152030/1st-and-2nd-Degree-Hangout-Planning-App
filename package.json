@@ -6,8 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview",
-    "postinstall": "npm run seed"
+    "preview": "vite preview"
   },
   "dependencies": {
     "bcryptjs": "^3.0.2",
